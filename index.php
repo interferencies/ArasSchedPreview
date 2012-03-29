@@ -1,5 +1,9 @@
 <?php
 
+	$WIDTH = 1000;
+	$HEIGHT = 600;
+	$ARAS_PATH = "";
+	$ARAS_SCHED = "aras.schedule";	
 
 	function get_hour($l) {
 		return trim($l[count($l)-2]);
@@ -14,6 +18,7 @@
 	}
 
 	function print_hours() {
+		# print times on the sched
 		for ($h=0;$h<24;$h++) {
 				$m="00";
 				$hour=$h.":".$m.":00";
@@ -24,12 +29,12 @@
 
 
 	function print_block($b,$x) {
+		# print div block
 		# key(b) es la fecha 00:00:00
 		# b(key(b))
 		# positionX = x*WIDTH/1050
 		# positionY = y*HEIGHT/1439 	
-		$WIDTH = 1000;
-		$HEIGHT = 600;
+		global $WIDTH, $HEIGHT;
 	
 		foreach ($b as $c) {
 			@list($h,$m,$s) = split(':',key($b));
@@ -74,8 +79,9 @@
 
 	function print_sched() {
 		#PARSE 
-		$aras_path = "";
-		$aras_sched = "aras.schedule";
+		global $ARAS_PATH, $ARAS_SCHED;
+		$aras_path = $ARAS_PATH;
+		$aras_sched = $ARAS_SCHED;
 		$f = fopen($aras_path.$aras_sched,"r");
 	
 		print_hours();
@@ -95,7 +101,7 @@
 <title>ARAS Scheduler</title>
 </head>
 <body>
-<div style="position:absolute;font-family:sans;left:50%;top:10px;z-index:2;font-size:30px;">ARAS SCHED <?php date_default_timezone_set("UTC"); date("H:m:s");?></div>
+<div style="position:absolute;font-family:sans;left:50%;top:10px;z-index:2;font-size:30px;">ARAS SCHED <?php date_default_timezone_set("UTC"); print date("H:m:s");?></div>
 <?php print_sched(); ?>
 </body>
 </html>
