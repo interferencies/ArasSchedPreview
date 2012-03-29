@@ -4,6 +4,8 @@
 	$HEIGHT = 600;
 	$ARAS_PATH = "";
 	$ARAS_SCHED = "aras.schedule";	
+    $BLOCK_WIDTH = 140;
+
 
 	function get_hour($l) {
 		return trim($l[count($l)-2]);
@@ -48,32 +50,33 @@
 	}
 
 	function get_sizeX($d) {
-		switch ($d) {
-				case "Monday" : 
-					$x = 150;
-					break;
-				case "Tuesday" :
-					$x = 300;
-					break;
-				case "Wednesday":
-					$x = 450;
-					break;
-				case "Thursday":
-					$x = 600;
-					break;
-				case "Friday":
-					$x = 750;
-					break;
-				case "Saturday":
-					$x = 900;
-					break;
-				case "Sunday":
-					$x = 1050;
-					break;	
-				default :
-					$x = 0;
-		}
-		return $x;	
+		global $BLOCK_WIDTH;
+                switch ($d) {
+                                case "Monday" :
+                                        $x = 1*$BLOCK_WIDTH;
+                                        break;
+                                case "Tuesday" :
+                                        $x = 2*$BLOCK_WIDTH;
+                                        break;
+                                case "Wednesday":
+                                        $x = 3*$BLOCK_WIDTH;
+                                        break;
+                                case "Thursday":
+                                        $x = 4*$BLOCK_WIDTH;
+                                        break;
+                                case "Friday":
+                                        $x = 5*$BLOCK_WIDTH;
+                                        break;
+                                case "Saturday":
+                                        $x = 6*$BLOCK_WIDTH;
+                                        break;
+                                case "Sunday":
+                                        $x = 7*$BLOCK_WIDTH;
+                                        break;
+                                default :
+                                        $x = 0;
+                }
+                return $x;	
 	}
 
 
