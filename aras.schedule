@@ -1,0 +1,119 @@
+#
+# ARAS schedule file
+#
+
+# Sunday schedule
+
+Sunday    00:00:00 ATituloPersonal
+Sunday    01:00:00 DogDance
+Sunday    08:00:00 IntervalSignal
+Sunday    12:00:00 TomaLaTierra
+Sunday    10:00:00 NoEstamosGlobalizados
+Sunday    12:00:00 VocesMeridianas
+Sunday    13:00:00 Celtismos
+Sunday    14:00:00 Cuentos
+Sunday    15:00:00 RadioTomaLaMontana
+Sunday    16:00:00 VozDeTusMuertos
+Sunday    19:00:00 AiresCeltas
+Sunday    20:00:00 ContraInfo
+Sunday    23:30:00 DogClasica
+
+# Monday schedule
+
+Monday    08:00:00 RadioAlmenara
+Monday    10:00:00 VocesMeridianas
+Monday	  13:00:00 Purposedes
+Monday    14:00:00 MasVoces
+Monday    14:30:00 Monograficos
+Monday    15:00:00 RadioTomaLaMontana
+Monday	  16:00:00 IntervalSignal
+Monday    18:00:00 TomaLaTierra
+Monday    20:00:00 ContraInfo
+Monday    21:00:00 Xoubas
+Monday    22:00:00 Conciertos
+Monday    23:00:00 Sexofonia
+
+# Tuesday schedule
+Tuesday   00:00:00 Interferencies
+Tuesday   00:47:00 DogFolk
+Tuesday   08:00:00 RadioAlmaina
+Tuesday   10:00:00 BisABis
+Tuesday	  11:30:00 AleteoDesEquilibrado
+Tuesday   13:00:00 LaMavea
+Tuesday   14:00:00 MasVoces
+Tuesday   14:30:00 Monograficos
+Tuesday	  15:00:00 RadioTomaLaMontana
+Tuesday   16:00:00 IntervalSignal
+Tuesday   17:00:00 NoEstamosGlobalizados
+Tuesday   18:00:00 TradicionSonora
+Tuesday   19:00:00 TomaLaTierra
+Tuesday   20:00:00 ContraInfo
+Tuesday	  21:00:00 VallekasBeach
+
+# Wednesday schedule
+Wednesday 00:00:00 ATituloPersonal
+Wednesday 01:00:00 DogBlues
+Wednesday 08:00:00 RadioELA
+Wednesday 10:00:00 VocesMeridianas
+Wednesday 12:00:00 TomaLaTierra
+Wednesday 14:00:00 MasVoces
+Wednesday 14:30:00 Monograficos
+Wednesday 15:00:00 RadioTomaLaMontana
+Wednesday 16:00:00 VozDeTusMuertos
+Wednesday 17:00:00 RelojesRotos 
+Wednesday 19:30:00 Cuentos
+Wednesday 20:00:00 ContraInfo
+Wednesday 21:00:00 LaCasaIncendiada
+Wednesday 21:30:00 FuckTheBastards
+Wednesday 22:30:00 ColoresDeGuerra
+
+# Thursday schedule
+
+Thursday  00:00:00 DogRock
+Thursday  08:00:00 RadioQK
+Thursday  12:00:00 TomaLaTierra
+Thursday  13:00:00 LaBellaDurmiente
+Thursday  14:00:00 MasVoces
+Thursday  14:30:00 Monograficos
+Thursday  15:00:00 RadioTomaLaMontana
+Thursday  16:00:00 IntervalSignal
+Thursday  17:00:00 BisABis
+Thursday  19:00:00 Celtismos
+Thursday  20:00:00 ContraInfo
+Thursday  21:00:00 Xoubas
+Thursday  22:00:00 Conciertos
+Thursday  23:00:00 CristalesContraElEspejo
+
+# Friday schedule
+
+Friday    00:00:00 Interferencies
+Friday    00:30:00 DogHipHop
+Friday    08:00:00 ContrabandaFM
+Friday    10:00:00 NoEstamosGlobalizados
+Friday	  12:00:00 Conciertos
+Friday    14:00:00 MasVoces
+Friday    14:30:00 Monograficos
+Friday	  15:00:00 RadioTomaLaMontana
+Friday    16:00:00 IntervalSignal
+Friday	  18:00:00 AleteoDesEquilibrado
+Friday	  19:30:00 Purposedes
+Friday    20:00:00 ContraInfo
+Friday    21:00:00 VallekasBeach
+
+# Saturday schedule
+
+Saturday  00:00:00 DogDance
+Saturday  08:00:00 IntervalSignal
+Saturday  10:00:00 CristalesContraElEspejo
+Saturday  11:00:00 RadioNikosia
+Saturday  12:00:00 TomaLaTierra
+Saturday  13:00:00 LaMavea
+Saturday  14:00:00 RelojesRotos
+Saturday  15:00:00 RadioTomaLaMontana
+Saturday  16:00:00 IntervalSignal
+Saturday  19:00:00 LaBellaDurmiente
+Saturday  20:00:00 ContraInfo
+Saturday  21:00:00 LaCasaIncendiada
+Saturday  21:30:00 FuckTheBastards
+Saturday  22:30:00 Sexofonia
+
